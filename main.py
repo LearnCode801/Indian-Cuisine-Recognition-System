@@ -19,7 +19,6 @@ from langchain.schema import (
 openapi_key = st.secrets["OPENAI_API_KEY"]
 api_key = "AIzaSyDgwVYiML9g9_5YbIYgKzRxVZ632nIr4PU"  # Replace with your API key
 youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=api_key)
-
 # Initialize session state variables
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []  # Store AI generated responses
