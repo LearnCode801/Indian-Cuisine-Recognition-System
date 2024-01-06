@@ -1,0 +1,5 @@
+streamlit
+tensorflow
+numpy
+google-api-python-client
+langchain
