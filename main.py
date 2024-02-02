@@ -11,7 +11,7 @@ from langchain.schema import (
     HumanMessage,
     AIMessage
 )
-
+OPENAI_API_KEY=st.secrets["OPENAI_API_KEY"]
 
 api_key = "AIzaSyDgwVYiML9g9_5YbIYgKzRxVZ632nIr4PU"  # Replace with your API key
 youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=api_key)
@@ -33,13 +33,15 @@ dish=""
 chat = ChatOpenAI(
     temperature=0.5,
     model_name="gpt-3.5-turbo", 
-    max_tokens=2000
+    max_tokens=2000,
+    openai_api_key=OPENAI_API_KEY
     )
 
 recipe_model = ChatOpenAI(
     temperature=0.5,
     model_name="gpt-3.5-turbo", 
-    max_tokens=2000
+    max_tokens=2000,
+    openai_api_key=OPENAI_API_KEY
     )
 
 def generate_recipe(dish):
