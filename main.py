@@ -200,7 +200,9 @@ elif(app_mode=="Prediction"):
         result_index = model_prediction(test_image)
         st.snow()
         #Reading Labels
-        with open("labels.txt") as f:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        file_path = os.path.join(script_dir, "labels.txt")
+        with open(file_path) as f:
             content = f.readlines()
         label = []
         for i in content:
