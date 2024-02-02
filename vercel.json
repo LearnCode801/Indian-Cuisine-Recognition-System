@@ -1,1 +1,15 @@
-
+{
+    "devCommand": "web: streamlit run main.py",
+    "builds": [
+        {
+            "src": "model/main.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "model/main.py"
+        }
+    ]
+}
