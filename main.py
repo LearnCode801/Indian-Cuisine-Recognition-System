@@ -42,15 +42,14 @@ chat = ChatOpenAI(
     model_name="gpt-3.5-turbo", 
     max_tokens=2000,
     openai_api_key=OPENAI_API_KEY
-    
-)
+    )
 
 recipe_model = ChatOpenAI(
     temperature=0.5,
     model_name="gpt-3.5-turbo", 
     max_tokens=2000,
     openai_api_key=OPENAI_API_KEY
-)
+    )
 
 def generate_recipe(dish):
     Instruction = [SystemMessage(
