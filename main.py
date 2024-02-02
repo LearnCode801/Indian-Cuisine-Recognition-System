@@ -1,6 +1,7 @@
 import streamlit as st
 import tensorflow as tf
 import numpy as np
+import os
 from itertools import zip_longest
 from streamlit_chat import message
 import googleapiclient.discovery
@@ -122,12 +123,20 @@ def submit():
 
 #Tensorflow Model Prediction
 def model_prediction(test_image):
-    model = tf.keras.models.load_model("trained_model.h5")
-    image = tf.keras.preprocessing.image.load_img(test_image,target_size=(128,128))
-    input_arr = tf.keras.preprocessing.image.img_to_array(image)
-    input_arr = np.array([input_arr]) #convert single image to batch
-    predictions = model.predict(input_arr)
-    return np.argmax(predictions) #return index of max element
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    model_path = os.path.join(script_dir, "trained_model.h5")
+    try:
+        st.info(model_path)
+        model = tf.keras.models.load_model(model_path)
+        # model = tf.keras.models.load_model("trained_model.h5")
+        image = tf.keras.preprocessing.image.load_img(test_image,target_size=(128,128))
+        input_arr = tf.keras.preprocessing.image.img_to_array(image)
+        input_arr = np.array([input_arr]) #convert single image to batch
+        predictions = model.predict(input_arr)
+        return np.argmax(predictions) #return index of max element
+     
+    except Exception as e:
+    print(f"Error loading the model: {e}")   
 
 
 def Your_digital_chef():
