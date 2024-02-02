@@ -16,7 +16,6 @@ from langchain.schema import (
 )
 
 
-openapi_key = st.secrets["OPENAI_API_KEY"]
 api_key = "AIzaSyDgwVYiML9g9_5YbIYgKzRxVZ632nIr4PU"  # Replace with your API key
 youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=api_key)
 # Initialize session state variables
@@ -36,15 +35,13 @@ dish=""
 # Initialize the ChatOpenAI model
 chat = ChatOpenAI(
     temperature=0.5,
-    model_name="gpt-3.5-turbo",
-    openai_api_key=openapi_key, 
+    model_name="gpt-3.5-turbo", 
     max_tokens=2000
 )
 
 recipe_model = ChatOpenAI(
     temperature=0.5,
-    model_name="gpt-3.5-turbo",
-    openai_api_key=openapi_key, 
+    model_name="gpt-3.5-turbo", 
     max_tokens=2000
 )
 
