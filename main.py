@@ -4,14 +4,17 @@ import numpy as np
 from itertools import zip_longest
 from streamlit_chat import message
 import googleapiclient.discovery
-from langchain.chat_models import ChatOpenAI
+# from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
+
+import openai
 
 from langchain.schema import (
     SystemMessage,
     HumanMessage,
     AIMessage
 )
-OPENAI_API_KEY=st.secrets["OPENAI_API_KEY"]
+OPENAI_KEY=st.secrets["OPENAI_API_KEY"]
 
 api_key = "AIzaSyDgwVYiML9g9_5YbIYgKzRxVZ632nIr4PU"  # Replace with your API key
 youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=api_key)
@@ -34,14 +37,14 @@ chat = ChatOpenAI(
     temperature=0.5,
     model_name="gpt-3.5-turbo", 
     max_tokens=2000,
-    openai_api_key=OPENAI_API_KEY
+    openai_api_key=OPENAI_KEY
     )
 
 recipe_model = ChatOpenAI(
     temperature=0.5,
     model_name="gpt-3.5-turbo", 
     max_tokens=2000,
-    openai_api_key=OPENAI_API_KEY
+    openai_api_key=OPENAI_KEY
     )
 
 def generate_recipe(dish):
