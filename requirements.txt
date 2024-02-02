@@ -4,3 +4,4 @@ numpy
 google-api-python-client
 langchain
 streamlit_chat
+python-dotenv
