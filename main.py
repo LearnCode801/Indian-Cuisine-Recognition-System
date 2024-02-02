@@ -136,7 +136,7 @@ def model_prediction(test_image):
         return np.argmax(predictions) #return index of max element
      
     except Exception as e:
-    print(f"Error loading the model: {e}")   
+        st.info(e)   
 
 
 def Your_digital_chef():
