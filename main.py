@@ -2,11 +2,15 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 from itertools import zip_longest
-import streamlit as st
 from streamlit_chat import message
 import googleapiclient.discovery
-import streamlit as st
-import googleapiclient.discovery
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+# Access environment variables
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 from langchain.chat_models import ChatOpenAI
 from langchain.schema import (
@@ -36,13 +40,16 @@ dish=""
 chat = ChatOpenAI(
     temperature=0.5,
     model_name="gpt-3.5-turbo", 
-    max_tokens=2000
+    max_tokens=2000,
+    openai_api_key=OPENAI_API_KEY
+    
 )
 
 recipe_model = ChatOpenAI(
     temperature=0.5,
     model_name="gpt-3.5-turbo", 
-    max_tokens=2000
+    max_tokens=2000,
+    openai_api_key=OPENAI_API_KEY
 )
 
 def generate_recipe(dish):
