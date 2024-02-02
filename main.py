@@ -4,11 +4,8 @@ import numpy as np
 from itertools import zip_longest
 from streamlit_chat import message
 import googleapiclient.discovery
-
-# Access environment variables
-# OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-
 from langchain.chat_models import ChatOpenAI
+
 from langchain.schema import (
     SystemMessage,
     HumanMessage,
