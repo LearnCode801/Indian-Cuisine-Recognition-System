@@ -6,10 +6,6 @@
 
 Excited to share my latest project, the **Indian Cuisine Recognition System**! This platform combines the art of Indian cooking with advanced technology to bring you an interactive, insightful, and immersive culinary experience.
 
-## 🌟 Meet the Digital Chef Chatbot
-Introducing the **Digital Chef** – your virtual culinary guide, powered by **Langchain** and **GPT-3.5 Turbo API**! Dive into the rich world of traditional Indian cuisine, uncover cooking tips, and explore diverse dishes through engaging, interactive conversations.
-
----
 ## 🎥 Project Demo
 **[Watch Demo Video](https://lnkd.in/p/dJPZti_G)**
 
@@ -24,6 +20,10 @@ Introducing the **Digital Chef** – your virtual culinary guide, powered by **L
 
 ---
 
+## 🌟 Meet the Digital Chef Chatbot
+Introducing the **Digital Chef** – your virtual culinary guide, powered by **Langchain** and **GPT-3.5 Turbo API**! Dive into the rich world of traditional Indian cuisine, uncover cooking tips, and explore diverse dishes through engaging, interactive conversations.
+
+---
 ### Project Overview
 Discover what makes this project unique! Here's an overview of its key components:
 
