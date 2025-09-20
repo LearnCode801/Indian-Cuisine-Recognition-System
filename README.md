@@ -15,9 +15,12 @@ Introducing the **Digital Chef** – your virtual culinary guide, powered by **L
 
 ## 📚 Project Resources
 
-### Code Notebooks & Implementation
-- **[Model Training Notebook](https://github.com/LearnCode801/Indian-Cuisine-Recognition-System/blob/main/efficientnetv2l-transferlearning-20-cusine.ipynb)** - EfficientNetV2L Transfer Learning for 20 Cuisine Classification
-- **[Main Application](https://github.com/LearnCode801/Indian-Cuisine-Recognition-System/blob/main/main.py)** - Complete prediction system implementation
+### 📓 Code Notebooks
+- **[Training Notebook - EfficientNetV2L Transfer Learning](https://github.com/LearnCode801/Indian-Cuisine-Recognition-System/blob/main/efficientnetv2l-transferlearning-20-cusine.ipynb)** - Complete model training process
+- **[Main Application](https://github.com/LearnCode801/Indian-Cuisine-Recognition-System/blob/main/main.py)** - Prediction system implementation
+
+### 📄 Documentation
+- **[Detailed Project Report](https://github.com/LearnCode801/Indian-Cuisine-Recognition-System/blob/main/Report.pdf)** - Full documentation of the computer vision model development process
 
 ### Project Overview
 - **[Project Banner & Details](https://github.com/LearnCode801/Indian-Cuisine-Recognition-System/blob/main/bannar.png)** - Full computer vision model development details
