@@ -1,9 +1,8 @@
-
+# Indian Cuisine Recognition System
 ---
 [![Project Screenshot](https://github.com/LearnCode801/Digital-Chef/blob/main/Indian%20Cuisine%20Recognition%20System%20Image.png)](https://www.linkedin.com/posts/muhammad-talha-806126234_indian-cuisine-recognition-system-a-culinary-activity-7150190049953832960-wJ25?utm_source=share&utm_medium=member_desktop)
 
 
-# Indian Cuisine Recognition System - A Culinary Exploration Journey
 
 Excited to share my latest project, the **Indian Cuisine Recognition System**! This platform combines the art of Indian cooking with advanced technology to bring you an interactive, insightful, and immersive culinary experience.
 
