@@ -2,7 +2,7 @@
 ---
 [![Project Screenshot](https://github.com/LearnCode801/Digital-Chef/blob/main/Indian%20Cuisine%20Recognition%20System%20Image.png)](https://www.linkedin.com/posts/muhammad-talha-806126234_indian-cuisine-recognition-system-a-culinary-activity-7150190049953832960-wJ25?utm_source=share&utm_medium=member_desktop)
 
-```markdown
+
 # Indian Cuisine Recognition System - A Culinary Exploration Journey
 
 Excited to share my latest project, the **Indian Cuisine Recognition System**! This platform combines the art of Indian cooking with advanced technology to bring you an interactive, insightful, and immersive culinary experience.
@@ -11,6 +11,17 @@ Excited to share my latest project, the **Indian Cuisine Recognition System**! T
 Introducing the **Digital Chef** – your virtual culinary guide, powered by **Langchain** and **GPT-3.5 Turbo API**! Dive into the rich world of traditional Indian cuisine, uncover cooking tips, and explore diverse dishes through engaging, interactive conversations.
 
 ---
+## 🎥 Project Demo
+**[Watch Demo Video](https://lnkd.in/p/dJPZti_G)**
+
+## 📚 Project Resources
+
+### Code Notebooks & Implementation
+- **[Model Training Notebook](https://github.com/LearnCode801/Indian-Cuisine-Recognition-System/blob/main/efficientnetv2l-transferlearning-20-cusine.ipynb)** - EfficientNetV2L Transfer Learning for 20 Cuisine Classification
+- **[Main Application](https://github.com/LearnCode801/Indian-Cuisine-Recognition-System/blob/main/main.py)** - Complete prediction system implementation
+
+### Project Overview
+- **[Project Banner & Details](https://github.com/LearnCode801/Indian-Cuisine-Recognition-System/blob/main/bannar.png)** - Full computer vision model development details
 
 ### Project Overview
 Discover what makes this project unique! Here's an overview of its key components:
@@ -33,8 +44,3 @@ Discover what makes this project unique! Here's an overview of its key component
 - Integration with **YouTube API** for related culinary videos
 
 ---
-
-Happy cooking and coding! Embark on this flavorful journey with the Indian Cuisine Recognition System, where every dish tells a story. 🍛🌶️
-```
-
-This README will effectively introduce users to the project and its core features, creating a welcoming entry point for those interested in exploring Indian cuisine and technology.
