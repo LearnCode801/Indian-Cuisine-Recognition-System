@@ -22,8 +22,7 @@ Introducing the **Digital Chef** – your virtual culinary guide, powered by **L
 ### 📄 Documentation
 - **[Detailed Project Report](https://github.com/LearnCode801/Indian-Cuisine-Recognition-System/blob/main/Report.pdf)** - Full documentation of the computer vision model development process
 
-### Project Overview
-- **[Project Banner & Details](https://github.com/LearnCode801/Indian-Cuisine-Recognition-System/blob/main/bannar.png)** - Full computer vision model development details
+--
 
 ### Project Overview
 Discover what makes this project unique! Here's an overview of its key components:
